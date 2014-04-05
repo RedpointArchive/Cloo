@@ -1,0 +1,6 @@
+# Ignore files
+bin
+obj
+*.csproj
+*.sln
+*.userprefs
