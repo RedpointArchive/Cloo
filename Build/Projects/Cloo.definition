@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Name="Cloo" Path="Cloo" Type="Library">
   <References>
     <Reference Include="System" />
@@ -16,13 +16,16 @@
     <Compile Include="Bindings\CLPlatformHandle.cs" />
     <Compile Include="Bindings\CLProgramHandle.cs" />
     <Compile Include="Bindings\CLSamplerHandle.cs" />
+    <Compile Include="Bindings\Clx.cs" />
+    <Compile Include="Bindings\Enums.cs" />
     <Compile Include="ComputeBuffer.cs" />
     <Compile Include="ComputeBufferBase.cs" />
     <Compile Include="ComputeCommandQueue.Added.cs" />
+    <Compile Include="ComputeCommandQueue.cs" />
     <Compile Include="ComputeCompiler.cs" />
     <Compile Include="ComputeContext.cs" />
-    <Compile Include="ComputeContextPropertyList.cs" />
     <Compile Include="ComputeContextProperty.cs" />
+    <Compile Include="ComputeContextPropertyList.cs" />
     <Compile Include="ComputeDevice.cs" />
     <Compile Include="ComputeEvent.cs" />
     <Compile Include="ComputeEventBase.cs" />
@@ -37,17 +40,14 @@
     <Compile Include="ComputeObject.cs" />
     <Compile Include="ComputePlatform.cs" />
     <Compile Include="ComputeProgram.cs" />
-    <Compile Include="ComputeCommandQueue.cs" />
     <Compile Include="ComputeResource.cs" />
     <Compile Include="ComputeSampler.cs" />
     <Compile Include="ComputeSubBuffer.cs" />
+    <Compile Include="ComputeTools.cs" />
     <Compile Include="ComputeUserEvent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SysIntX2.cs" />
     <Compile Include="SysIntX3.cs" />
-    <Compile Include="ComputeTools.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Bindings\Enums.cs" />
-    <Compile Include="Bindings\Clx.cs" />
     <None Include="Cloo.dll.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
