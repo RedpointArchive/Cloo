@@ -8,5 +8,6 @@
   </Services>
 
   <Binary Name="Cloo" Path="Cloo/Cloo.dll" />
+  <NativeBinary Path="Cloo/Cloo.dll.config" />
 
 </ExternalProject>
