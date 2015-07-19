@@ -1,8 +1,0 @@
-include ^Cloo/bin/Windows/AnyCPU/Debug/Cloo\.dll$
-include ^Cloo/bin/Windows/AnyCPU/Debug/Cloo\.dll\.config$
-include ^Build/Cloo\.Publish\.definition$
-include ^Build/Module\.xml$
-
-rewrite ^Cloo/bin/Windows/AnyCPU/Debug/Cloo\.dll$ Cloo/Cloo.dll
-rewrite ^Cloo/bin/Windows/AnyCPU/Debug/Cloo\.dll\.config$ Cloo/Cloo.dll.config
-rewrite ^Build/Cloo\.Publish\.definition$ Build/Projects/Cloo.definition
