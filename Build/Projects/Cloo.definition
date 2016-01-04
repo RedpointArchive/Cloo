@@ -4,11 +4,6 @@
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
   </References>
-  <Services>
-    <Service Name="Default">
-      <DefaultForRoot>True</DefaultForRoot>
-    </Service>
-  </Services>
   <Files>
     <Compile Include="Bindings\CL10.cs" />
     <Compile Include="Bindings\CL11.cs" />
